@@ -16,19 +16,16 @@ Documento CSS de formatação padrão para todas as páginas
 .fonte-dark{
     color: #ffffff;
 }
-
-
 .fonte-light-dark{
     color: #2c2c2c;
 }
 
-
-.body{
+.conteudo{
     padding: 1em;
     height: 100vh;
 }
 
-.conteudo{
+.cardConteudo{
     padding-left: 0.2em;
     height: 100%;
 }
