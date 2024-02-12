@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #000;
+    height: 100vh;
+}
+
+.conteudo{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.linhaConteudo{
+    height: 100%;
+}
+
+.colunaNome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nome{
+    font-family: Roboto;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    animation: nomeFade 1s linear forwards;
+}
+
+@keyframes nomeFade {
+    0% {
+        color: #ffffff00;
+    }
+    50%{
+        color: #ffffff35;
+    }
+    100% {
+        color: #ffffffff;
+    }
+}
